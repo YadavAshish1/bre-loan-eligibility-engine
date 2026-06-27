@@ -108,19 +108,24 @@ npm run dev     # development (with nodemon)
   },
   "result": {
     "eligible_banks": [
-      { "bank": "AXIS" },
-      { "bank": "HDFC" },
-      { "bank": "ICICI" }
+     {"bank":"AXIS"},{"bank":"Bajaj Finance"},{"bank":"Bank of Baroda"},{"bank":"Federal Bank"},{"bank":"HDFC"},{"bank":"ICICI"},{"bank":"IndusInd"},{"bank":"Kotak Mahindra"},{"bank":"L&T Finance"},{"bank":"PNB"},{"bank":"SBI"},{"bank":"Tata Capital"},{"bank":"Yes Bank"}
     ],
     "total_checked": 4,
     "total_eligible": 3
   }
 }
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/244b4f59-5c12-41af-89c6-200a74b68358" />
+
+
 ```
 
 ### GET /api/banks/rules
 
 Returns all bank eligibility criteria from the database.
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f324edf4-fa13-498c-9907-f6f7deff928d" />
+
 
 ### GET /api/health
 
